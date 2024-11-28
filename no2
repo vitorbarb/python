@@ -20,15 +20,10 @@ else:
         escolha = input()
         if escolha =="SIM":
             print("Então mão na massa!")
-        else:
-            print("Já pesquisou no google?")
-            escolha = input()
-            if escolha =="SIM":
-                print("Corre lá então!")
-            else:
+    else:
              print("Já foi na tutoria?")
-        escolha = input()
-        if escolha =="SIM":
-            print("Choremos!")
-        else:
-            print("Temos um time a disposição!")
+             escolha = input()
+             if escolha =="SIM":
+                 print("Choremos!")
+             else:
+                 print("Temos um time a disposição!")
